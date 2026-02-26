@@ -85,24 +85,51 @@
     <script>self.__next_f.push([1, "c:[[\"$\",\"meta\",\"0\",{\"name\":\"viewport\",\"content\":\"width=device-width, initial-scale=1\"}],[\"$\",\"meta\",\"1\",{\"charSet\":\"utf-8\"}],[\"$\",\"title\",\"2\",{\"children\":\"Sistema loto\"}],[\"$\",\"meta\",\"3\",{\"name\":\"description\",\"content\":\"Sistema loto\"}]]\n4:null\n"])</script>
 
   <script>
-            history.pushState({}, "", location.href);
-            history.pushState({}, "", location.href);
-            window.addEventListener(
-                "popstate",
-                function (t) {
-                    if (!t.state) return;
-                    setTimeout(function () {
-                        var back_redirect_back_link =
-                            "https://spyscope.online/lt/back" +
-                            location.search +
-                            (typeof atomiGetVturbSrc === "function" ? atomiGetVturbSrc() : "");
+(function () {
+  // evita duplicar caso o script rode 2x
+  if (window.__backRedirectInstalled) return;
+  window.__backRedirectInstalled = true;
 
-                        location.href = back_redirect_back_link;
-                    }, 1);
-                },
-                false
-            );
-        </script>
+  var target =
+    "https://spyscope.online/lt/back" +
+    location.search +
+    (typeof atomiGetVturbSrc === "function" ? atomiGetVturbSrc() : "");
+
+  // "arma" 2 estados no histórico (melhor no iOS)
+  function armHistory() {
+    try {
+      history.replaceState({ br: 1 }, "", location.href);
+      history.pushState({ br: 2 }, "", location.href);
+    } catch (e) {}
+  }
+
+  armHistory();
+
+  // em alguns iPhones o bfcache volta e não dispara popstate como esperado
+  window.addEventListener("pageshow", function (ev) {
+    if (ev && ev.persisted) armHistory();
+  });
+
+  // se o VTurb/SPA trocar URL, rearma
+  window.addEventListener("hashchange", armHistory);
+
+  window.addEventListener(
+    "popstate",
+    function (ev) {
+      // só redireciona quando apertar voltar (estado armado)
+      if (!ev || !ev.state || !ev.state.br) return;
+
+      // trava pra não ficar redirecionando múltiplas vezes
+      if (window.__backRedirecting) return;
+      window.__backRedirecting = true;
+
+      // usa replace pra não permitir voltar pra página novamente
+      location.replace(target);
+    },
+    false
+  );
+})();
+</script>
 
 
 </body></html>
