@@ -1030,7 +1030,7 @@
                             (0, s.jsx)(K, {}),
                             e &&
                                 (0, s.jsx)(d.V, {
-                                    href: "https://pay.cakto.com.br/d4ecavv_784948",
+                                    href: "https://lastlink.com/p/C5B36E406/checkout-payment/",
                                     className:
                                         "max-w-[240px] mx-auto w-full px-3 py-4 flex items-center justify-center gap-2 text-white leading-none font-semibold text-center rounded-2xl disabled:opacity-50 disabled:cursor-not-allowed bg-green-1 enabled:animate-scale-down-button",
                                     children: "GARANTIR A MINHA VAGA",
