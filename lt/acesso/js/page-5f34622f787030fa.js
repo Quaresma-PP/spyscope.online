@@ -61,7 +61,7 @@
                 u = t(3869);
             let x = (0, r.memo)(() => {
                 let { htmlBlock: e, scriptUrl: a } = (0, u.S)(
-                    '<script>!function(i,n){i._plt=i._plt||(n&&n.timeOrigin?n.timeOrigin+n.now():Date.now())}(window,performance);</script> <link rel="preload" href="https://scripts.converteai.net/cec32f51-d852-44df-8a9b-acfdac92dc4f/players/69a0853b9a21752e30e5c9f4/v4/player.js" as="script"> <link rel="preload" href="https://scripts.converteai.net/lib/js/smartplayer-wc/v4/smartplayer.js" as="script"> <link rel="preload" href="https://cdn.converteai.net/cec32f51-d852-44df-8a9b-acfdac92dc4f/69a08530dd18ae140c39352a/main.m3u8" as="fetch"> <link rel="dns-prefetch" href="https://cdn.converteai.net"> <link rel="dns-prefetch" href="https://scripts.converteai.net"> <link rel="dns-prefetch" href="https://images.converteai.net"> <link rel="dns-prefetch" href="https://api.vturb.com.br"> <vturb-smartplayer id="vid-69a0853b9a21752e30e5c9f4" style="display: block; margin: 0 auto; width: 100%; max-width: 400px;"></vturb-smartplayer> <script type="text/javascript"> var s=document.createElement("script"); s.src="https://scripts.converteai.net/cec32f51-d852-44df-8a9b-acfdac92dc4f/players/69a0853b9a21752e30e5c9f4/v4/player.js", s.async=!0,document.head.appendChild(s); </script>'
+                    '<script>!function(i,n){i._plt=i._plt||(n&&n.timeOrigin?n.timeOrigin+n.now():Date.now())}(window,performance);</script> <link rel="preload" href="https://scripts.converteai.net/beb06ebc-0219-4b97-b88f-8ccab6eb2442/players/69a31348ede7290ae641cd16/v4/player.js" as="script"> <link rel="preload" href="https://scripts.converteai.net/lib/js/smartplayer-wc/v4/smartplayer.js" as="script"> <link rel="preload" href="https://cdn.converteai.net/beb06ebc-0219-4b97-b88f-8ccab6eb2442/69a313444c54c72e8c752d2a/main.m3u8" as="fetch"> <link rel="dns-prefetch" href="https://cdn.converteai.net"> <link rel="dns-prefetch" href="https://scripts.converteai.net"> <link rel="dns-prefetch" href="https://images.converteai.net"> <link rel="dns-prefetch" href="https://api.vturb.com.br"> <vturb-smartplayer id="vid-69a31348ede7290ae641cd16" style="display: block; margin: 0 auto; width: 100%; max-width: 400px;"></vturb-smartplayer> <script type="text/javascript"> var s=document.createElement("script"); s.src="https://scripts.converteai.net/beb06ebc-0219-4b97-b88f-8ccab6eb2442/players/69a31348ede7290ae641cd16/v4/player.js", s.async=!0,document.head.appendChild(s); </script>'
                 );
                 return (0, s.jsxs)(s.Fragment, {
                     children: [
@@ -74,7 +74,7 @@
                 let { setPagePresell: e } = (0, c.S)(),
                     [a, t] = (0, r.useState)(!1),
                     { cleanId: n } = (0, u.S)(
-                        '<script>!function(i,n){i._plt=i._plt||(n&&n.timeOrigin?n.timeOrigin+n.now():Date.now())}(window,performance);</script> <link rel="preload" href="https://scripts.converteai.net/cec32f51-d852-44df-8a9b-acfdac92dc4f/players/69a0853b9a21752e30e5c9f4/v4/player.js" as="script"> <link rel="preload" href="https://scripts.converteai.net/lib/js/smartplayer-wc/v4/smartplayer.js" as="script"> <link rel="preload" href="https://cdn.converteai.net/cec32f51-d852-44df-8a9b-acfdac92dc4f/69a08530dd18ae140c39352a/main.m3u8" as="fetch"> <link rel="dns-prefetch" href="https://cdn.converteai.net"> <link rel="dns-prefetch" href="https://scripts.converteai.net"> <link rel="dns-prefetch" href="https://images.converteai.net"> <link rel="dns-prefetch" href="https://api.vturb.com.br"> <vturb-smartplayer id="vid-69a0853b9a21752e30e5c9f4" style="display: block; margin: 0 auto; width: 100%; max-width: 400px;"></vturb-smartplayer> <script type="text/javascript"> var s=document.createElement("script"); s.src="https://scripts.converteai.net/cec32f51-d852-44df-8a9b-acfdac92dc4f/players/69a0853b9a21752e30e5c9f4/v4/player.js", s.async=!0,document.head.appendChild(s); </script>'
+                        '<script>!function(i,n){i._plt=i._plt||(n&&n.timeOrigin?n.timeOrigin+n.now():Date.now())}(window,performance);</script> <link rel="preload" href="https://scripts.converteai.net/beb06ebc-0219-4b97-b88f-8ccab6eb2442/players/69a31348ede7290ae641cd16/v4/player.js" as="script"> <link rel="preload" href="https://scripts.converteai.net/lib/js/smartplayer-wc/v4/smartplayer.js" as="script"> <link rel="preload" href="https://cdn.converteai.net/beb06ebc-0219-4b97-b88f-8ccab6eb2442/69a313444c54c72e8c752d2a/main.m3u8" as="fetch"> <link rel="dns-prefetch" href="https://cdn.converteai.net"> <link rel="dns-prefetch" href="https://scripts.converteai.net"> <link rel="dns-prefetch" href="https://images.converteai.net"> <link rel="dns-prefetch" href="https://api.vturb.com.br"> <vturb-smartplayer id="vid-69a31348ede7290ae641cd16" style="display: block; margin: 0 auto; width: 100%; max-width: 400px;"></vturb-smartplayer> <script type="text/javascript"> var s=document.createElement("script"); s.src="https://scripts.converteai.net/beb06ebc-0219-4b97-b88f-8ccab6eb2442/players/69a31348ede7290ae641cd16/v4/player.js", s.async=!0,document.head.appendChild(s); </script>'
                     );
                 return (
                     (0, r.useEffect)(() => {
@@ -769,7 +769,7 @@
                         return () => clearInterval(e);
                     }, []),
                     (0, r.useEffect)(() => {
-                        100 === e && t("vsl-pr");
+                        100 ===  t("vsl-pr");
                     }, [e]),
                     (0, s.jsxs)("section", {
                         className: "flex-1 flex flex-col justify-center",
@@ -985,7 +985,7 @@
             }
             let K = (0, r.memo)(() => {
                 let { htmlBlock: e, scriptUrl: a } = (0, u.S)(
-                    '<script>!function(i,n){i._plt=i._plt||(n&&n.timeOrigin?n.timeOrigin+n.now():Date.now())}(window,performance);</script> <link rel="preload" href="https://scripts.converteai.net/cec32f51-d852-44df-8a9b-acfdac92dc4f/players/69a09cdec4b02ade5c6146ec/v4/player.js" as="script"> <link rel="preload" href="https://scripts.converteai.net/lib/js/smartplayer-wc/v4/smartplayer.js" as="script"> <link rel="preload" href="https://cdn.converteai.net/cec32f51-d852-44df-8a9b-acfdac92dc4f/69a09cd2a94f18f88e670e8d/main.m3u8" as="fetch"> <link rel="dns-prefetch" href="https://cdn.converteai.net"> <link rel="dns-prefetch" href="https://scripts.converteai.net"> <link rel="dns-prefetch" href="https://images.converteai.net"> <link rel="dns-prefetch" href="https://api.vturb.com.br"> <vturb-smartplayer id="vid-69a09cdec4b02ade5c6146ec" style="display: block; margin: 0 auto; width: 100%; max-width: 400px;"></vturb-smartplayer> <script type="text/javascript"> var s=document.createElement("script"); s.src="https://scripts.converteai.net/cec32f51-d852-44df-8a9b-acfdac92dc4f/players/69a09cdec4b02ade5c6146ec/v4/player.js", s.async=!0,document.head.appendChild(s); </script>'
+                    '<script>!function(i,n){i._plt=i._plt||(n&&n.timeOrigin?n.timeOrigin+n.now():Date.now())}(window,performance);</script> <link rel="preload" href="https://scripts.converteai.net/beb06ebc-0219-4b97-b88f-8ccab6eb2442/players/69a31d7ea414172eb5cf97c0/v4/player.js" as="script"> <link rel="preload" href="https://scripts.converteai.net/lib/js/smartplayer-wc/v4/smartplayer.js" as="script"> <link rel="preload" href="https://cdn.converteai.net/beb06ebc-0219-4b97-b88f-8ccab6eb2442/69a31d7ca414172eb5cf97bf/main.m3u8" as="fetch"> <link rel="dns-prefetch" href="https://cdn.converteai.net"> <link rel="dns-prefetch" href="https://scripts.converteai.net"> <link rel="dns-prefetch" href="https://images.converteai.net"> <link rel="dns-prefetch" href="https://api.vturb.com.br"> <vturb-smartplayer id="vid-69a31d7ea414172eb5cf97c0" style="display: block; margin: 0 auto; width: 100%; max-width: 400px;"></vturb-smartplayer> <script type="text/javascript"> var s=document.createElement("script"); s.src="https://scripts.converteai.net/beb06ebc-0219-4b97-b88f-8ccab6eb2442/players/69a31d7ea414172eb5cf97c0/v4/player.js", s.async=!0,document.head.appendChild(s); </script>'
                 );
                 return (0, s.jsxs)(s.Fragment, {
                     children: [
@@ -994,30 +994,21 @@
                     ],
                 });
             });
-            function Y() {
-                let [e, a] = (0, r.useState)(!1),
-                    { cleanId: t } = (0, u.S)(
-                        '<script>!function(i,n){i._plt=i._plt||(n&&n.timeOrigin?n.timeOrigin+n.now():Date.now())}(window,performance);</script> <link rel="preload" href="https://scripts.converteai.net/cec32f51-d852-44df-8a9b-acfdac92dc4f/players/69a09cdec4b02ade5c6146ec/v4/player.js" as="script"> <link rel="preload" href="https://scripts.converteai.net/lib/js/smartplayer-wc/v4/smartplayer.js" as="script"> <link rel="preload" href="https://cdn.converteai.net/cec32f51-d852-44df-8a9b-acfdac92dc4f/69a09cd2a94f18f88e670e8d/main.m3u8" as="fetch"> <link rel="dns-prefetch" href="https://cdn.converteai.net"> <link rel="dns-prefetch" href="https://scripts.converteai.net"> <link rel="dns-prefetch" href="https://images.converteai.net"> <link rel="dns-prefetch" href="https://api.vturb.com.br"> <vturb-smartplayer id="vid-69a09cdec4b02ade5c6146ec" style="display: block; margin: 0 auto; width: 100%; max-width: 400px;"></vturb-smartplayer> <script type="text/javascript"> var s=document.createElement("script"); s.src="https://scripts.converteai.net/cec32f51-d852-44df-8a9b-acfdac92dc4f/players/69a09cdec4b02ade5c6146ec/v4/player.js", s.async=!0,document.head.appendChild(s); </script>'
+            function Y() { let { cleanId: t } = (0, u.S)(
+                        '<script>!function(i,n){i._plt=i._plt||(n&&n.timeOrigin?n.timeOrigin+n.now():Date.now())}(window,performance);</script> <link rel="preload" href="https://scripts.converteai.net/beb06ebc-0219-4b97-b88f-8ccab6eb2442/players/69a31d7ea414172eb5cf97c0/v4/player.js" as="script"> <link rel="preload" href="https://scripts.converteai.net/lib/js/smartplayer-wc/v4/smartplayer.js" as="script"> <link rel="preload" href="https://cdn.converteai.net/beb06ebc-0219-4b97-b88f-8ccab6eb2442/69a31d7ca414172eb5cf97bf/main.m3u8" as="fetch"> <link rel="dns-prefetch" href="https://cdn.converteai.net"> <link rel="dns-prefetch" href="https://scripts.converteai.net"> <link rel="dns-prefetch" href="https://images.converteai.net"> <link rel="dns-prefetch" href="https://api.vturb.com.br"> <vturb-smartplayer id="vid-69a31d7ea414172eb5cf97c0" style="display: block; margin: 0 auto; width: 100%; max-width: 400px;"></vturb-smartplayer> <script type="text/javascript"> var s=document.createElement("script"); s.src="https://scripts.converteai.net/beb06ebc-0219-4b97-b88f-8ccab6eb2442/players/69a31d7ea414172eb5cf97c0/v4/player.js", s.async=!0,document.head.appendChild(s); </script>'
                     );
                 return (
                     (0, r.useEffect)(() => {
                         let e = parseInt("267") || 0,
-                            s = "true" === new URLSearchParams(window.location.search).get("nodelay"),
-                            r = () => {
-                                a(!0);
-                            };
+                            s = "true" === new URLSearchParams(window.location.search).get("nodelay");
                         s &&
-                            (r(),
-                            localStorage.setItem("".concat(t, "-resume"), e.toString()),
+                            (localStorage.setItem("".concat(t, "-resume"), e.toString()),
                             localStorage.setItem("displayHiddenElements-".concat(t), "true"));
                         let n = document.querySelector("vturb-smartplayer");
                         null == n ||
                             n.addEventListener("player:ready", function () {
                                 n.displayHiddenElements(e, [], {
                                     persist: !0,
-                                    callback: () => {
-                                        r();
-                                    },
                                 });
                             });
                     }, []),
@@ -1028,19 +1019,6 @@
                         className: "px-mobile flex-1 flex flex-col gap-2.5 pb-16 bg-black",
                         children: [
                             (0, s.jsx)(K, {}),
-                            e &&
-                                (0, s.jsx)(d.V, {
-                                    href: "https://lastlink.com/p/C5B36E406/checkout-payment/",
-                                    className:
-                                        "max-w-[240px] mx-auto w-full px-3 py-4 flex items-center justify-center gap-2 text-white leading-none font-semibold text-center rounded-2xl disabled:opacity-50 disabled:cursor-not-allowed bg-green-1 enabled:animate-scale-down-button",
-                                    children: "GARANTIR A MINHA VAGA",
-                                }),
-                            (0, s.jsx)(l.default, {
-                                id: "utmify",
-                                src: "https://cdn.utmify.com.br/scripts/utms/latest.js",
-                                async: !0,
-                                defer: !0,
-                            }),
                         ],
                     })
                 );
